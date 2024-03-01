@@ -21,7 +21,7 @@ print('texto "destacado" sigo con el texto')
 print("texto 'destacado' sigo con el texto")
 
 #Punto f
-print("Santiago","Pacheco","21 años")
+print("Santiago","Pacheco",21)
 
 #Punto g
 print("Santiago","Pacheco",21,sep="_")
