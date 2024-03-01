@@ -19,3 +19,15 @@ print(2+(9**2-(4//2)))
 
 print(type(40))
 print(type("hola"))
+
+#Variables
+primer_nombre='Santiago'
+apellido_paterno='Pacheco'
+
+print(apellido_paterno)
+
+#Variables NO aceptadas
+#primer-nombre
+#primer@nombre
+#primer$nombre
+
