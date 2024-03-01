@@ -5,3 +5,7 @@ print()
 #print #error
 
 print("Hola","soy","Santiago")
+print()
+print("hola","soy","Santiago",sep="*")
+print("Probando argumentos","soy el segundo argumento", end='*')
+print("Soy otra linea")
