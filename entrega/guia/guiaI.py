@@ -25,3 +25,11 @@ print("Santiago","Pacheco",21)
 
 #Punto g
 print("Santiago","Pacheco",21,sep="_")
+
+#Punto h
+print("calle","numero","codigo postal",sep="\t")
+
+#Punto i
+print("calle","numero","codigo postal",sep="\n")
+
+#Punto j
