@@ -38,10 +38,21 @@ print(apellido_paterno)
 print("Usando la funcion"+" print()")
 print("Usando la funcion print()" *3)
 """
-
+"""
 edad = int(input("Ingrese su edad: "))
 
 #print("Su edad es "+edad) #Forma incorrecta
 #Forma correcta
 print("Su edad es ",edad)
 print("Su edad es "+ str(edad))
+"""
+
+num1=10
+num2=5
+print(f"{num1} + {num2} = {num1+num2}")
+print(f"{num1} - {num2} = {num1-num2}")
+print(f"{num1} * {num2} = {num1*num2}")
+print(f"{num1} % {num2} = {num1%num2}")
+print(f"{num1} / {num2} = {num1/num2}")
+print(f"{num1} // {num2} = {num1//num2}")
+print(f"{num1} ** {num2} = {num1**num2}")
