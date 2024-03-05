@@ -46,7 +46,7 @@ edad = int(input("Ingrese su edad: "))
 print("Su edad es ",edad)
 print("Su edad es "+ str(edad))
 """
-
+"""
 num1=10
 num2=5
 print(f"{num1} + {num2} = {num1+num2}")
@@ -55,4 +55,27 @@ print(f"{num1} * {num2} = {num1*num2}")
 print(f"{num1} % {num2} = {num1%num2}")
 print(f"{num1} / {num2} = {num1/num2}")
 print(f"{num1} // {num2} = {num1//num2}")
-print(f"{num1} ** {num2} = {num1**num2}")
+print(F"{num1} ** {num2} = {num1**num2}")
+"""
+
+texto = "EsTo eS uN texTo MeZclaDo"
+#Funciones de cadenas
+
+#tittle (Pone las primeras letras en mayusculas y las demas en minusculas)
+print(texto.title())
+#print(texto)
+#texto = texto.title()
+#print(texto)
+
+#upper lower
+print(texto.upper()) #Pone todo en mayuscula
+print(texto.lower()) #Pone todo en minuscula
+
+#replace
+print(texto.replace(" ","-")) #Los espacios en blanco se pone el -
+
+#len
+print(len(texto)) #Longitud de la cadena
+print(len('AIPython'))
+
+

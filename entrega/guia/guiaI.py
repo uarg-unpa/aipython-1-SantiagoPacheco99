@@ -1,3 +1,4 @@
+"""
 #Punto a
 print("Las maquinas me sorprenden con mucha frecuencia")
 
@@ -65,4 +66,37 @@ print()
 x = int(input("Ingrese un valor para x: "))
 resultado = (x**2) + (6*x) + 9
 print("El resultado de ",x,"^2 +6*",x,"+9 es: ",resultado)
+"""
+"""
+#Punto 5
+nombre = input("Ingrese su nombre: ")
+apellido = input("Ingrese su apellido: ")
+edad = int(input("Ingrese su edad: "))
+
+print("Usted es ",nombre,apellido,"y tiene ",edad,"años")
+
+#Punto 6
+num1 = int(input("Ingrese un numero: "))
+num2 = int(input("Ingrese otro numero: "))
+
+print(f"{num1} + {num2} = {num1+num2}")
+print(f"{num1} - {num2} = {num1-num2}")
+print(f"{num1} * {num2} = {num1*num2}")
+print(F"{num1} ** {num2} = {num1**num2}")
+print(f"{num1} % {num2} = {num1%num2}")
+"""
+"""
+#Punto 7
+num1 = int(input("Ingrese un numero: "))
+num2 = float(input("Ingrese otro numero: "))
+
+print(num1+num2)
+"""
+
+#Punto 9
+peso = float(input("Ingrese su peso: "))
+estatura = float(input("Ingrese su estatura: "))
+imc = peso / estatura
+
+print(F"Tu índice de masa corporal es: {imc}. Donde {imc} es el índice de masa corporal calculado")
 
