@@ -28,21 +28,21 @@ else:
     print(f"{n} es un numero impar")
 """
 n=int(input("Ingrese un numero del 1 al 7: "))
-if n>=1 and n<=7:
-    match n:
-        case 1:
-            print("Lunes")
-        case 2:
-            print("Martes")
-        case 3:
-            print("Miercoles")
-        case 4:
-            print("Jueves")
-        case 5:
-            print("Viernes")
-        case 6:
-            print("Sabado")
-        case 7:
-            print("Domingo")
-else:
-    print("")
+
+match n:
+    case 1:
+        print("Lunes")
+    case 2:
+        print("Martes")
+    case 3:
+        print("Miercoles")
+    case 4:
+        print("Jueves")
+    case 5:
+        print("Viernes")
+    case 6:
+        print("Sabado")
+    case 7:
+        print("Domingo")
+    case _:
+        print(F"El numero {n} no está dentro del rango")
