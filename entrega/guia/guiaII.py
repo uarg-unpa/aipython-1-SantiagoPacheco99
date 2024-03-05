@@ -28,7 +28,6 @@ else:
     print(f"{n} es un numero impar")
 """
 n=int(input("Ingrese un numero del 1 al 7: "))
-
 match n:
     case 1:
         print("Lunes")
