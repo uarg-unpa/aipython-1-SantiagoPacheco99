@@ -7,7 +7,7 @@ if(edad >= 18):
 else:
     print("Usted es menor de 18 años")
 """
-
+"""
 calificacion=int(input("Ingrese calificacion: "))
 
 if calificacion >=90:
@@ -18,3 +18,4 @@ elif calificacion >=70:
     print("Bien")
 else:
     print("Insuficiente")
+"""
