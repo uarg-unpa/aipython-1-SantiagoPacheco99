@@ -1,3 +1,4 @@
+"""
 print("Taller de AlPython P1 E2")
 print() 
 #Print() #error
@@ -30,4 +31,17 @@ print(apellido_paterno)
 #primer-nombre
 #primer@nombre
 #primer$nombre
+"""
 
+"""
+---------------------------------------------------------------------------------
+print("Usando la funcion"+" print()")
+print("Usando la funcion print()" *3)
+"""
+
+edad = int(input("Ingrese su edad: "))
+
+#print("Su edad es "+edad) #Forma incorrecta
+#Forma correcta
+print("Su edad es ",edad)
+print("Su edad es "+ str(edad))

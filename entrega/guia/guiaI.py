@@ -65,3 +65,4 @@ print()
 x = int(input("Ingrese un valor para x: "))
 resultado = (x**2) + (6*x) + 9
 print("El resultado de ",x,"^2 +6*",x,"+9 es: ",resultado)
+
