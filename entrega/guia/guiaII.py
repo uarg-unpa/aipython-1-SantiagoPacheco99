@@ -7,6 +7,7 @@ else:
     print(f"Le faltan {18-edad} años para poder conducir")
 """
 
+"""
 #Punto 2
 edad1 = int(input("Ingrese la primera edad: "))
 edad2 = int(input("Ingrese la segunda edad: "))
@@ -25,12 +26,18 @@ if 100>edad1>=0 and 100>edad2 >=0:
         print(f"La diferencia es de {resultado} años")
 else:
     print("Error. Ingreso un número invalido")
+"""
 
-
-
+"""
 #Punto 3
-#contraseña = input("Ingrese su contraseña: ")
+contraUsuario = input("Ingrese su contraseña: ")
+contraseña= "EstoesUnaContraseña123"
 
+if contraUsuario.upper() == contraseña.upper():
+    print("Contraseña valida!!")
+else:
+    print("Contraseña incorrecta")
+"""
 
 """
 #Punto 4
