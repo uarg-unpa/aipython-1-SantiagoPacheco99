@@ -93,6 +93,9 @@ num2 = float(input("Ingrese otro numero: "))
 print(num1+num2)
 """
 
+#Punto 8
+radio=float(input("Ingrese "))
+
 """
 #Punto 9
 peso = float(input("Ingrese su peso: "))
