@@ -93,8 +93,23 @@ num2 = float(input("Ingrese otro numero: "))
 print(num1+num2)
 """
 
+"""
 #Punto 8
-radio=float(input("Ingrese "))
+base = int(input("Ingrese la base del rectangulo: "))
+altura = int(input("Ingrese la altura del rectangulo: "))
+radioC=float(input("Ingrese el radio de la circunferencia: "))
+
+perimetroR = 2*(base + altura)
+areaR = base * altura
+perimetroC = 2*(3.14*radioC)
+areaC = 3.14*(radioC**2) 
+
+print()
+print("Perimetro del Rectangulo: ",perimetroR)
+print("Area del Rectangulo: ",areaR)
+print("Perimetro de la Circunferencia: ",perimetroC)
+print("Area de la circunferencia: ",areaC)
+"""
 
 """
 #Punto 9
