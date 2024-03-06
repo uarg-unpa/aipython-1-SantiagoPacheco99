@@ -93,10 +93,33 @@ num2 = float(input("Ingrese otro numero: "))
 print(num1+num2)
 """
 
+"""
 #Punto 9
 peso = float(input("Ingrese su peso: "))
 estatura = float(input("Ingrese su estatura: "))
 imc = peso / estatura
 
 print(F"Tu índice de masa corporal es: {imc}. Donde {imc} es el índice de masa corporal calculado")
+"""
+
+"""
+#Punto 10
+celsius = float(input("Ingrese la temperatura (en grados Celsius): "))
+fahrenheit = (celsius * (9/5)) + 32
+print("Grado Celsius: ",celsius,
+      "\nGrado Fahrenheit: ",fahrenheit)
+"""
+
+"""
+#Punto 14
+print("Una ambiciosa "+"Introduccion "+"a Python "+"Parte 1")
+"""
+
+"""
+#Punto 17
+nombreCompleto = input("Ingrese su nombre completo: ")
+print(nombreCompleto*3)
+"""
+
+
 
