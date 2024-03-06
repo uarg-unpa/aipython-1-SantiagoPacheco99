@@ -7,8 +7,16 @@ else:
     print(f"Le faltan {18-edad} años para poder conducir")
 """
 
-#Punto 3
+#Punto 2
+edad1 = int(input("Ingrese la primera edad: "))
+edad2 = int(input("Ingrese la segunda edad"))
 
+if (edad1-edad2) == 1 or (edad2-edad1) == 1:
+    print()
+
+
+#Punto 3
+contraseña = input("Ingrese su contraseña: ")
 
 
 """
