@@ -6,6 +6,11 @@ if edad >= 18:
 else:
     print(f"Le faltan {18-edad} años para poder conducir")
 """
+
+#Punto 3
+
+
+
 """
 #Punto 4
 a=int(input("Ingrese un numero para a: "))
@@ -65,6 +70,7 @@ else:
     print("Numero no permitido")
 """
 
+"""
 #Punto 8
 edad = int(input("Ingrese la edad: "))
 if edad < 4:
@@ -73,8 +79,17 @@ elif edad >=4 and edad<= 18:
     print("El cliente debe pagar $5")
 else:
     print("El cliente debe pagar $10")
+"""
 
-
-
+"""
 #Punto 9
 
+edad = int(input("Ingrese su edad: "))
+ingresos = int(input("Coloque sus ingresos mensuales: "))
+
+if edad >= 18 and ingresos >= 10000:
+    print("Tiene que pagar el impuesto")
+else:
+    print("NO tiene que pagar el impuesto")
+
+"""
