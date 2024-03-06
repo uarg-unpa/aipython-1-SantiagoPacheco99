@@ -27,6 +27,7 @@ if n%2==0:
 else:
     print(f"{n} es un numero impar")
 """
+"""
 n=int(input("Ingrese un numero del 1 al 7: "))
 match n:
     case 1:
@@ -44,4 +45,36 @@ match n:
     case 7:
         print("Domingo")
     case _:
-        print(F"El numero {n} no está dentro del rango")
+        print(F"{n} no está permitido")
+"""
+"""
+#Punto 7
+calificacion=int(input("Ingrese calificacion: "))
+
+if calificacion >=90 and calificacion <=100:
+    print("A")
+elif calificacion >=70 and calificacion <=89:
+    print("B")
+elif calificacion >=60 and calificacion<=69:
+    print("C")
+elif calificacion >= 50 and calificacion <=59:
+    print("D")
+elif calificacion>=0 and calificacion<=49:
+    print("F")
+else:
+    print("Numero no permitido")
+"""
+
+#Punto 8
+edad = int(input("Ingrese la edad: "))
+if edad < 4:
+    print("El cliente tiene entrada gratis")
+elif edad >=4 and edad<= 18:
+    print("El cliente debe pagar $5")
+else:
+    print("El cliente debe pagar $10")
+
+
+
+#Punto 9
+
