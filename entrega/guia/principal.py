@@ -58,6 +58,7 @@ print(f"{num1} // {num2} = {num1//num2}")
 print(F"{num1} ** {num2} = {num1**num2}")
 """
 
+"""
 texto = "EsTo eS uN texTo MeZclaDo"
 #Funciones de cadenas
 
@@ -77,5 +78,15 @@ print(texto.replace(" ","-")) #Los espacios en blanco se pone el -
 #len
 print(len(texto)) #Longitud de la cadena
 print(len('AIPython'))
+"""
+
+#Inmutables
+
+cadena = "AIPYTHON"
+print(cadena[5])
+#cadena[5]="h" #No se puede hacer por la inmutabilidad
+
+
+
 
 
