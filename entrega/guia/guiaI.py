@@ -160,11 +160,29 @@ print(frase)
 nombreCompleto = input("Ingrese su nombre completo: ")
 print(nombreCompleto*3)
 """
-
+"""
 #Punto 21
 palabra = input("Ingrese una palabra: ")
 print(palabra.replace("a","�"))
+"""
 
 #Punto 22
 frase =  "El razonamiento matemático puede considerarse más bien esquemáticamente como el ejercicio de una combinación dedos instalaciones, que podemos llamar la intuición y el ingenio"
+
+"""
+#Punto 24
+frase =  "El razonamiento matemático puede considerarse más bien esquemáticamente como el ejercicio \nde una combinación dedos instalaciones, que podemos llamar la intuición y el ingenio"
+print(frase)
+"""
+
+"""
+#Punto 25
+print("Nombre Edad Pais Ciudad","Alexa 250 USA CapeCod",sep="\n")
+"""
+
+
+
+
+
+
 
