@@ -128,6 +128,15 @@ print("Grado Celsius: ",celsius,
       "\nGrado Fahrenheit: ",fahrenheit)
 """
 
+#Punto 13
+
+precio = float(input("Ingrese el precio del producto: "))
+cantProd = int(input("Ingrese la cantidad de productos: ")) 
+
+precioPromedio = precio/cantProd
+
+print("El precio promedio es: ",precioPromedio)
+
 """
 #Punto 14
 print("Una ambiciosa "+"Introduccion "+"a Python "+"Parte 1")
@@ -165,11 +174,16 @@ print(nombreCompleto*3)
 palabra = input("Ingrese una palabra: ")
 print(palabra.replace("a","�"))
 """
-
+"""
 #Punto 22
 frase =  "El razonamiento matemático puede considerarse más bien esquemáticamente como el ejercicio de una combinación dedos instalaciones, que podemos llamar la intuición y el ingenio"
 fraseA = frase[16:]
 print(fraseA)
+"""
+
+#Punto 23
+
+
 
 """
 #Punto 24
