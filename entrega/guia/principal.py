@@ -79,12 +79,26 @@ print(texto.replace(" ","-")) #Los espacios en blanco se pone el -
 print(len(texto)) #Longitud de la cadena
 print(len('AIPython'))
 """
-
+"""
 #Inmutables
 
 cadena = "AIPYTHON"
 print(cadena[5])
 #cadena[5]="h" #No se puede hacer por la inmutabilidad
+"""
+
+
+frase = input("Ingrese una frase: ")
+caracter = input("Ingrese un caracter: ")
+#Buscar la primera aparicion del caracter
+posicion = frase.find(caracter)
+
+if posicion != -1:
+    print(f"El caracter {caracter} se encuentra en la posicion {posicion+1}")
+    subcadena = frase[posicion:]
+    print(f"Subcadena a partir de la posicion {posicion+1}: {subcadena}")
+else:
+    print(f"El caracter {caracter} no se encuentra en la frase")
 
 
 
