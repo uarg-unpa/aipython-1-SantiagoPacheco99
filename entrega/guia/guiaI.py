@@ -168,6 +168,8 @@ print(palabra.replace("a","�"))
 
 #Punto 22
 frase =  "El razonamiento matemático puede considerarse más bien esquemáticamente como el ejercicio de una combinación dedos instalaciones, que podemos llamar la intuición y el ingenio"
+fraseA = frase[16:]
+print(fraseA)
 
 """
 #Punto 24
