@@ -25,6 +25,19 @@ for num in range(10,-1,-1):
 """
 
 """
+#Punto 4
+n1 = int(input("Ingrese un numero: "))
+n2 = int(input("Ingrese otro numero: "))
+
+if n1<n2:
+    for n in range(n1+1,n2):
+        print(n)
+else:
+    for nu in range(n2+1,n1):
+        print(nu)
+"""
+
+"""
 #Punto 5
 i = int(1)
 while(i<=7):
@@ -41,7 +54,6 @@ for _ in range(7):
 print()
 """
 
-
 """
 #Punto 7
 nombre = input("Ingrese su nombre: ")
@@ -50,6 +62,16 @@ for ind in range(1,i+1):
     print(nombre*ind)
 """
 
+"""
+#Punto 8
+n = int(input("Ingrese un numero entero positivo mayor a 3: "))
+if n>3:
+    for num in range(1,n+1,2):
+        print(num)
+else:
+    print("Error. El numero ingresado es negativo o menor a 3")
+"""
+    
 """
 #Punto 9
 
