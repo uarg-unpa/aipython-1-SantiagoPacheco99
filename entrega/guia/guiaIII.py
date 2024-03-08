@@ -32,6 +32,7 @@ while(i<=7):
     i = i+1
 """
 
+"""
 #Punto 9
 
 i = int(0)
@@ -40,8 +41,10 @@ while(i<=10):
     print(f"{i} x {i} = {resul}")
     i = i + 1
 
-
-
+for num in range(0,11):
+    resultado = num * num
+    print(f"{num} x {num} = {resultado}")
+"""
 
 
 
