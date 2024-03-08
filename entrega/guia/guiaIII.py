@@ -46,10 +46,18 @@ for num in range(0,11):
     print(f"{num} x {num} = {resultado}")
 """
 
-
-
-
-
+#Punto 12
+N = int(input("Ingrese un numero: "))
+i=int(1)
+resultado = int(0)
+while(i<=N):
+    if i<N:
+        print(f"{i} +",end=" ")
+    else:
+        print(f"{i}",end=" ")
+    resultado = resultado + i
+    i = i + 1
+print(f"= {resultado}")
 
 
 
