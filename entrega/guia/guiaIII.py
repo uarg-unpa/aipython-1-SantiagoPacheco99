@@ -93,19 +93,6 @@ for i in range(0,7):
 """
 
 """
-num1 = int(input("Ingrese un numero: "))
-num2 = int(input("Ingrese otro numero: "))
-if num1 < num2:
-    for i in range(num1,num2):
-        if i%2 == 0:
-            print(i)
-else:
-    for i in range(num2,num1):
-        if i%2 == 0:
-            print(i)
-"""
-
-"""
 #Punto 12
 N = int(input("Ingrese un numero: "))
 i=int(1)
@@ -139,7 +126,20 @@ for num in range(0,N+1,2):
 print(f"El numero elegido {N}, su suma de los numeros enteros pares es: {resultado}")
 """
 
+"""
+#Punto 14
 
+num1 = int(input("Ingrese un numero: "))
+num2 = int(input("Ingrese otro numero: "))
+if num1 < num2:
+    for i in range(num1,num2):
+        if i%2 == 0:
+            print(i)
+else:
+    for i in range(num2,num1):
+        if i%2 == 0:
+            print(i)
+"""
 
 
 
