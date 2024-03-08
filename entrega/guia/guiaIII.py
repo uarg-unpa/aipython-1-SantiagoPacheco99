@@ -32,6 +32,15 @@ while(i<=7):
     i = i+1
 """
 
+
+"""
+#Punto 7
+nombre = input("Ingrese su nombre: ")
+i = int(input("Ingrese un numero: "))
+for ind in range(1,i+1):
+    print(nombre*ind)
+"""
+
 """
 #Punto 9
 
@@ -44,6 +53,12 @@ while(i<=10):
 for num in range(0,11):
     resultado = num * num
     print(f"{num} x {num} = {resultado}")
+"""
+
+"""
+#Punto 10
+for i in range(0,7):
+    print(f"0 {i}")
 """
 
 """
@@ -71,9 +86,14 @@ for num in range(1,N+1):
     resultado = resultado + num
 print(f"= {resultado}")
 """
-
-
-
+"""
+#Punto 13
+N = int(input("Ingrese un número natural: "))
+resultado = int(0)
+for num in range(0,N+1,2):
+    resultado = resultado + num
+print(f"El numero elegido {N}, su suma de los numeros enteros pares es: {resultado}")
+"""
 
 
 
