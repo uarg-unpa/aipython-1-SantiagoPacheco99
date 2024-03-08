@@ -31,6 +31,15 @@ while(i<=7):
     print("#"*i)
     i = i+1
 """
+"""
+#Punto 6
+
+for _ in range(7):
+    for _ in range(7):
+        print("#",end="")
+    print("#")
+print()
+"""
 
 
 """
@@ -59,6 +68,19 @@ for num in range(0,11):
 #Punto 10
 for i in range(0,7):
     print(f"0 {i}")
+"""
+
+"""
+num1 = int(input("Ingrese un numero: "))
+num2 = int(input("Ingrese otro numero: "))
+if num1 < num2:
+    for i in range(num1,num2):
+        if i%2 == 0:
+            print(i)
+else:
+    for i in range(num2,num1):
+        if i%2 == 0:
+            print(i)
 """
 
 """
