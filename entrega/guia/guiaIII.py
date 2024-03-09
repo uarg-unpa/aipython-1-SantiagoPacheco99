@@ -91,6 +91,15 @@ for num in range(0,11):
 for i in range(0,7):
     print(f"0 {i}")
 """
+"""
+#Punto 11
+num = int(input("Ingrese un numero: "))
+
+for i in range(1,num+1,2):
+    print("")
+    for j in range(i,0,-2):
+        print(j,end=" ")
+"""
 
 """
 #Punto 12
