@@ -186,7 +186,7 @@ print("  *****")
 """
 #Punto 21
 palabra = input("Ingrese una palabra: ")
-print(palabra.replace("a","�"))
+print(palabra.replace("a","😀"))
 """
 """
 #Punto 22
