@@ -140,7 +140,18 @@ else:
         if i%2 == 0:
             print(i)
 """
-
+"""
+#Punto 15
+num = int(input("Ingrese un numero: "))
+contador = 0
+for i in range(1,num+1):
+    if num % i == 0:
+        contador = contador + 1
+if contador > 2:
+    print(f"El numero {num} NO es un numero primo")
+else:
+    print(f"El numero {num} es un numero primo")
+"""
 
 
 
