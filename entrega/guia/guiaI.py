@@ -127,7 +127,7 @@ fahrenheit = (celsius * (9/5)) + 32
 print("Grado Celsius: ",celsius,
       "\nGrado Fahrenheit: ",fahrenheit)
 """
-
+"""
 #Punto 13
 
 precio = float(input("Ingrese el precio del producto: "))
@@ -136,6 +136,7 @@ cantProd = int(input("Ingrese la cantidad de productos: "))
 precioPromedio = precio/cantProd
 
 print("El precio promedio es: ",precioPromedio)
+"""
 
 """
 #Punto 14
@@ -169,6 +170,19 @@ print(frase)
 nombreCompleto = input("Ingrese su nombre completo: ")
 print(nombreCompleto*3)
 """
+
+#Punto 18
+print("    *")
+print("   * *")
+print("  *   *")
+print(" *     *")
+print("***   ***")
+print("  *   *")
+print("  *   *")
+print("  *****")
+
+
+
 """
 #Punto 21
 palabra = input("Ingrese una palabra: ")
@@ -183,7 +197,7 @@ print(fraseA)
 
 #Punto 23
 
-
+frase =  "  La ciencia es una ecuación diferencial. La religión es una condición de frontera.  " 
 
 """
 #Punto 24
