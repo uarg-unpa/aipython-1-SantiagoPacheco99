@@ -128,12 +128,24 @@ print("Grado Celsius: ",celsius,
       "\nGrado Fahrenheit: ",fahrenheit)
 """
 """
+#Punto 11
+horas_trabajadas = int(input("Ingrese horas trabajadas: "))
+costo_hora=float(input("Ingrese el costo por hora: "))
+
+sueldo= horas_trabajadas * costo_hora
+
+print(f"El sueldo es de: {sueldo}")
+"""
+
+
+"""
 #Punto 13
 
 precio = float(input("Ingrese el precio del producto: "))
 cantProd = int(input("Ingrese la cantidad de productos: ")) 
+precioTotal = precio*cantProd
 
-precioPromedio = precio/cantProd
+precioPromedio = precioTotal/cantProd
 
 print("El precio promedio es: ",precioPromedio)
 """
@@ -197,7 +209,8 @@ print(fraseA)
 
 #Punto 23
 
-frase =  "  La ciencia es una ecuación diferencial. La religión es una condición de frontera.  " 
+#frase =   
+ 
 
 """
 #Punto 24
