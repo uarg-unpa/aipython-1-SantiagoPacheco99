@@ -16,7 +16,7 @@ def tabla_multiplicar(num):
        print(f"{num} x {i} = {resultado}")
 
 numero = int(input("Ingrese el numero para ver su tabla de multiplicar: "))
-print(tabla_multiplicar(numero))
+tabla_multiplicar(numero)
 """
 
 """
@@ -30,11 +30,8 @@ def par_impar(n):
 
 
 num = int(input("Ingrese un numero para determinar si es par o impar: "))
-print(par_impar(num))
+par_impar(num)
 """
-
-
-
 
 
 
