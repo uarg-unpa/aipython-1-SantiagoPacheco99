@@ -87,7 +87,7 @@ print(cadena[5])
 #cadena[5]="h" #No se puede hacer por la inmutabilidad
 """
 
-
+"""
 frase = input("Ingrese una frase: ")
 caracter = input("Ingrese un caracter: ")
 #Buscar la primera aparicion del caracter
@@ -99,6 +99,25 @@ if posicion != -1:
     print(f"Subcadena a partir de la posicion {posicion+1}: {subcadena}")
 else:
     print(f"El caracter {caracter} no se encuentra en la frase")
+"""
+
+
+num = int(input("Ingrese un numero: "))
+while num > 0:
+    if num%2==0:
+        print("Finalizando el bucle")
+        break
+    num = int(input())
+
+
+suma = 0
+for i in range(1,30):
+    print(i)
+    if i > 10:
+        continue 
+    suma = suma+1
+print(suma)
+        
 
 
 
