@@ -150,10 +150,9 @@ print(f"El capital obtenido de su inversion es de $",round(capital_obtenido,3))
 #Punto 13
 
 precio = float(input("Ingrese el precio del producto: "))
-cantProd = int(input("Ingrese la cantidad de productos: ")) 
-precioTotal = precio*cantProd
+cantProd = int(input("Ingrese la cantidad de ese producto: ")) 
 
-precioPromedio = precioTotal/cantProd
+precioPromedio = precio/cantProd
 
 print("El precio promedio es: ",precioPromedio)
 """
@@ -220,31 +219,23 @@ print("        *"
       "\n    *       *"
       "\n    *********")
 """
-
+"""
 #Punto 20
-print("        *"
-      "\n       * *"
-      "\n      *   *"
-      "\n     *     *"
-      "\n    *       *"
-      "\n   *         *"
-      "\n  ***       ***"
-      "\n    *       *"
-      "\n    *       *"
-      "\n    *       *"
-      "\n    *********")
+a1= ("        *\n"
+      "       * *\n"
+      "      *   *\n"
+      "     *     *\n"
+      "    *       *\n"
+      "   *         *\n"
+      "  ***       ***\n"
+      "    *       *\n"
+      "    *       *\n"
+      "    *       *\n"
+      "    *********\n")
 
-print("        *"
-      "\n       * *"
-      "\n      *   *"
-      "\n     *     *"
-      "\n    *       *"
-      "\n   *         *"
-      "\n  ***       ***"
-      "\n    *       *"
-      "\n    *       *"
-      "\n    *       *"
-      "\n    *********")
+print(a1+" "+a1)
+"""
+
 
 """
 #Punto 21
@@ -257,11 +248,10 @@ frase =  "El razonamiento matemático puede considerarse más bien esquemáticam
 fraseA = frase[16:]
 print(fraseA)
 """
-
+"""
 #Punto 23
-
-#frase =   
- 
+frase =   "       La ciencia es una ecuación diferencial. La religión es una condición de frontera.      "
+"""
 
 """
 #Punto 24
@@ -271,7 +261,8 @@ print(frase)
 
 """
 #Punto 25
-print("Nombre Edad Pais Ciudad","Alexa 250 USA CapeCod",sep="\n")
+print("Nombre\tEdad\tPais\tCiudad")
+print("Alexa\t25\tUSA\tCapeCod")
 """
 
 
