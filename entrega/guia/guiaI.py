@@ -154,7 +154,7 @@ cantProd = int(input("Ingrese la cantidad de ese producto: "))
 
 precioPromedio = precio/cantProd
 
-print("El precio promedio es: ",precioPromedio)
+print(f"El precio promedio es: {precioPromedio}")
 """
 
 """
