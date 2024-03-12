@@ -248,9 +248,13 @@ frase =  "El razonamiento matemático puede considerarse más bien esquemáticam
 fraseA = frase[16:]
 print(fraseA)
 """
+
 """
 #Punto 23
-frase =   "       La ciencia es una ecuación diferencial. La religión es una condición de frontera.      "
+frase = "     La ciencia es una ecuación diferencial. La religión es una condición de frontera.      "
+frase_sin_espacios = frase.strip() #Metodo que elimina los espacios del principio y final
+
+print(frase_sin_espacios)
 """
 
 """
