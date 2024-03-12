@@ -101,7 +101,7 @@ else:
     print(f"El caracter {caracter} no se encuentra en la frase")
 """
 
-
+"""
 num = int(input("Ingrese un numero: "))
 while num > 0:
     if num%2==0:
@@ -110,14 +110,14 @@ while num > 0:
     num = int(input())
 
 
-suma = 0
+suma = int(0)
 for i in range(1,30):
     print(i)
     if i > 10:
         continue 
-    suma = suma+1
+    suma = suma+i
 print(suma)
-        
+"""     
 
 
 
