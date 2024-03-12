@@ -137,6 +137,16 @@ sueldo= horas_trabajadas * costo_hora
 print(f"El sueldo es de: {sueldo}")
 """
 
+#Punto 12
+ci = float(input("Ingrese la cantidad a invertir: "))
+ia = float(input("Ingrese el interes anual (en porcentaje): "))
+num_años = int(input("Ingrese el numero de años de la inversion: "))  
+
+
+capital_obtenido = (ci * (1 + (ia/100))) ** num_años
+
+print(f"El capital obtenido de su inversion es de ${round(capital_obtenido,3)}")
+
 
 """
 #Punto 13
@@ -183,6 +193,7 @@ nombreCompleto = input("Ingrese su nombre completo: ")
 print(nombreCompleto*3)
 """
 
+"""
 #Punto 18
 print("    *")
 print("   * *")
@@ -192,7 +203,7 @@ print("***   ***")
 print("  *   *")
 print("  *   *")
 print("  *****")
-
+"""
 
 
 """
