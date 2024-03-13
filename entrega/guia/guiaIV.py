@@ -33,14 +33,32 @@ num = int(input("Ingrese un numero para determinar si es par o impar: "))
 par_impar(num)
 """
 
+"""
+#Punto 6
+def factorial(num):
+    fact = 1
+    for i in range(1,num+1):
+        fact= fact * i
+    return fact
+n = int(input("Ingrese un numero: "))
+print(f"El resultado de {n}! = {factorial(n)}")
+"""
+"""
+#Punto 7
+
+def maximo(n1,n2,n3):
+    if n1>=n2 and n1>=n3:
+        return n1
+    elif n2>=n1 and n2>=n3:
+        return n2
+    else:
+        return n3
+
+num1 = int(input("Ingrese un numero: "))
+num2 = int(input("Ingrese un segundo numero: "))
+num3 = int(input("Ingrese un tercer numero: "))
 
 
-
-
-
-
-
-
-
-
+print(f"El numero maximo entre {num1},{num2} y {num3} es: {maximo(num1,num2,num3)}")
+"""
 
