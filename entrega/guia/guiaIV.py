@@ -6,6 +6,15 @@ def producto(num1,num2):
 
 print(producto(4,5))
 """
+
+"""
+#Punto 2
+def producto(num1=1,num2=1):
+    return num1 * num2
+
+print(producto())
+"""
+
 """
 #Punto 3
 
