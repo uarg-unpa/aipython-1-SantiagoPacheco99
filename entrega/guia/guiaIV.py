@@ -6,6 +6,16 @@ def producto(num1,num2):
 
 print(producto(4,5))
 """
+"""
+#Punto 3
+
+def mensaje(nombre):
+    print(f"{nombre} se puede describir en 5 letras: CRACK")
+
+nom = input("Ingrese su nombre: ")
+
+mensaje(nom)
+"""
 
 """
 #Punto 4
@@ -61,4 +71,24 @@ num3 = int(input("Ingrese un tercer numero: "))
 
 print(f"El numero maximo entre {num1},{num2} y {num3} es: {maximo(num1,num2,num3)}")
 """
+
+"""
+#Punto 8
+
+def invertir(palabra):
+    print(palabra)
+    print(palabra[::-1])
+
+
+pal = input("Ingrese una palabra: ")
+invertir(pal)
+"""
+
+
+
+
+
+
+
+
 
