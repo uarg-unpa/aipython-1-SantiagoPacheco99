@@ -149,10 +149,40 @@ print(f"El capital obtenido de su inversion es de $",round(capital_obtenido,3))
 """
 #Punto 13
 
-precio = float(input("Ingrese el precio del producto: "))
-cantProd = int(input("Ingrese la cantidad de ese producto: ")) 
+suma_precio = 0
 
-precioPromedio = precio/cantProd
+precio = float(input("Ingrese el precio del producto 1: "))
+suma_precio = suma_precio + precio
+
+precio = float(input("Ingrese el precio del producto 2: "))
+suma_precio = suma_precio + precio
+
+precio = float(input("Ingrese el precio del producto 3: "))
+suma_precio = suma_precio + precio
+
+precio = float(input("Ingrese el precio del producto 4: "))
+suma_precio = suma_precio + precio
+
+precio = float(input("Ingrese el precio del producto 5: "))
+suma_precio = suma_precio + precio
+
+precio = float(input("Ingrese el precio del producto 6: "))
+suma_precio = suma_precio + precio
+
+precio = float(input("Ingrese el precio del producto 7: "))
+suma_precio = suma_precio + precio
+
+precio = float(input("Ingrese el precio del producto 8: "))
+suma_precio = suma_precio + precio
+
+precio = float(input("Ingrese el precio del producto 9: "))
+suma_precio = suma_precio + precio
+
+precio = float(input("Ingrese el precio del producto 10: "))
+suma_precio = suma_precio + precio
+
+
+precioPromedio = suma_precio/10
 
 print(f"El precio promedio es: {precioPromedio}")
 """
