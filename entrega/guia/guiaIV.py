@@ -84,8 +84,18 @@ pal = input("Ingrese una palabra: ")
 invertir(pal)
 """
 
+"""
+#Punto 9
 
+def palindromo(p):
+    if(p.lower() == p.lower()[::-1]):
+        return "Es palindromo"
+    else:
+        return "No es palindromo"
 
+palabra = input("Ingrese una palabra: ")
+print(palindromo(palabra))
+"""
 
 """
 #Punto 10
