@@ -87,6 +87,20 @@ invertir(pal)
 
 
 
+"""
+#Punto 10
+def temp(fahrenheit):
+    celsius = (fahrenheit - 32) * (5/9)
+    return celsius
+
+tempetarura = float(input("Ingrese la temperatura (en grados fahrenheit): "))
+print(f"La temperatura {tempetarura}°F a grados celsius es de: {temp(tempetarura)}°C")
+"""
+
+
+
+
+
 
 
 
