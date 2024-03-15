@@ -63,7 +63,13 @@ num = 22
 print(id(num))
 """
 
+"""
 #rebanadas
 numeros=[2,6,-2,-5,3,8]
 sub_numeros = numeros[:3]
 print(sub_numeros)
+"""
+
+
+
+

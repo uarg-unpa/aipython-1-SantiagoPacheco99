@@ -13,14 +13,15 @@ lis = [1,2,3]
 print(len(lis))
 """
 
+"""
 #Punto 4
 frutas = ["Frutilla","Manzana","Banana","Durazno"]
 print(len(frutas))
 print(frutas)
-
+frutas.pop(0)
 frutas.append("Pera")
 print(frutas)
-
+"""
 
 """
 #Punto 6
