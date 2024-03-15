@@ -1,6 +1,6 @@
 #Listas
 #Creacion lista vacia
-
+"""
 nombres = []
 
 #Valores iniciales
@@ -20,5 +20,46 @@ for i in range(len(nombres)):
 primerElemento = nombres[0]
 
 print(f"El primer elemento es: {primerElemento}")
+"""
+
+
+#Creacion de listas usando el metodo
+
+#nombres = list()
+
+#Crear una lista con valores iniciales
+
+
+nombres = list(["Villarroel","Edul","Julian"])
+
+
+#Metodos, append, permite agregar un elemento al final de la lista
+
+nombres.append("Alberto")
+print(nombres)
+
+#Insert
+nombres.insert(0,"Sandra")
+print(nombres)
+
+
+#Utilizar el operador in
+for nombre in nombres:
+    print(nombre,end=" ")
+
+#mutabilidad 
+print()
+nombres [4] = "Lorenzo"
+for nombre in nombres:
+    print(nombre,end=" ")
+
+print(id(nombres))
+
+
+#id
+num = 40
+print(id(num))
+num = 22
+print(id(num))
 
 
