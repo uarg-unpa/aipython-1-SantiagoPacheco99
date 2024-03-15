@@ -30,6 +30,29 @@ datos_personales = ["Santiago",21,1.74,"soltero","Las Piedras 226"]
 """
 
 """
+#Punto 10
+
+clubes = ["River Plate","Boca Juniors","Independiente","Racing","San Lorenzo"]
+clubes_inversa = clubes[::-1]
+print(clubes_inversa)
+"""
+
+"""
+#Punto 8
+num = [1,2,3,4,5,6,7,8,9,10]
+num_b = num[:3]
+print(num_b)
+"""
+
+"""
+#Punto 9
+letras = ["a","b","c","d","e","f","g","h","i","j"]
+
+segundos_elementos = letras[::2]
+
+print(segundos_elementos)
+"""
+"""
 #Punto 11
 numeros = [1,2,3,4,5,6,7,8,9,10]
 sub_num = numeros[:3]
