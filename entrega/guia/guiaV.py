@@ -38,13 +38,25 @@ print(lis[-1])
 
 datos_personales = ["Santiago",21,1.74,"soltero","Las Piedras 226"]
 """
+
 """
 #Punto 7
-flores= ["rosas","orquídea","lirio","tulipan","margarita","dalia","hortensia"]
+compañias = ["Samsung","Spotify","Nike","Coca cola","Adidas"]
 
-print(flores[2:])
+for i in compañias:
+    print(i,end=" ")
+
+print()
+for i in compañias:
+    print(f"{i} posicion: {compañias.index(i)}, ",end="")
+
+print()
+compañias[0] = "Sony"
+compañias[2] = "Mercado Libre"
+
+for i in compañias:
+    print(i,end=" ")
 """
-
 
 """
 #Punto 8
@@ -72,27 +84,32 @@ print(clubes_inversa)
 
 """
 #Punto 11
-numeros = [1,2,3,4,5,6,7,8,9,10]
-sub_num = numeros[:3]
-print(sub_num)
+
 """
+
 """
 #Punto 12
 flores= ["rosas","orquídea","lirio","tulipan","margarita","dalia","hortensia"]
-
-for flor in flores:
+print(flores[2:5])
+print(flores[1::2])
+print(flores[::3])
 """
+
 """
 #Punto 13
-def vocales(palabras):
+def contar_vocales(lista_caracteres):
+    vocales = ['a', 'e', 'i', 'o', 'u']
     cont = 0
-    for i in palabras:
-        if(palabras[i].lower == "a" or  palabras[i].lower == "e" or palabras[i].lower == "i" or palabras[i].lower == "o" or palabras[i].lower == "u"):
+    for caracter in lista_caracteres:
+        if caracter.lower() in vocales:
             cont = cont + 1
     return cont
+
+
+caracteres= ["a","b","z","y","E","i","q","e"]
+
+print(f"La cantidad de vocales que hay en la lista son: {contar_vocales(caracteres)}")
 """
-
-
 
 """
 #Punto 14
