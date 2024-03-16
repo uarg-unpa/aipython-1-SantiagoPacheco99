@@ -85,7 +85,12 @@ print(clubes_inversa)
 """
 #Punto 11
 
+palabras = ["tripiante","colosal","polemico","petacular","cuchitril","verdes"]
+
+sub_lista = palabras[1:4]
+print(sub_lista)
 """
+
 
 """
 #Punto 12
@@ -105,11 +110,11 @@ def contar_vocales(lista_caracteres):
             cont = cont + 1
     return cont
 
-
 caracteres= ["a","b","z","y","E","i","q","e"]
 
 print(f"La cantidad de vocales que hay en la lista son: {contar_vocales(caracteres)}")
 """
+   
 
 """
 #Punto 14
