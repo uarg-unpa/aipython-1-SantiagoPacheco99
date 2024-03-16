@@ -70,7 +70,7 @@ print(sub_num)
 #Punto 14
 
 def lista_union(lista1,lista2):
-    lista = [lista1,lista2]
+    lista = lista1 + lista2
     return lista
 
 nombres = ["Santiago", "Lionel", "Julian", "Ignacio"]
