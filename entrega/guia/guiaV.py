@@ -23,26 +23,28 @@ frutas.pop(0)
 frutas.append("Pera")
 print(frutas)
 """
+
 """
 #Punto 5
 lis = [1,2,3,4,5]
-print(lis.pop(0))
-
-print(lis.pop(-1))
+print(lis[0])
+i = len(lis)//2
+print(lis[i])
+print(lis[-1])
 """
+
 """
 #Punto 6
 
 datos_personales = ["Santiago",21,1.74,"soltero","Las Piedras 226"]
 """
-
 """
-#Punto 10
+#Punto 7
+flores= ["rosas","orquídea","lirio","tulipan","margarita","dalia","hortensia"]
 
-clubes = ["River Plate","Boca Juniors","Independiente","Racing","San Lorenzo"]
-clubes_inversa = clubes[::-1]
-print(clubes_inversa)
+print(flores[2:])
 """
+
 
 """
 #Punto 8
@@ -55,16 +57,42 @@ print(num_b)
 #Punto 9
 letras = ["a","b","c","d","e","f","g","h","i","j"]
 
-segundos_elementos = letras[::2]
+segundos_elementos = letras[1::2]
 
 print(segundos_elementos)
 """
+
+"""
+#Punto 10
+
+clubes = ["River Plate","Boca Juniors","Independiente","Racing","San Lorenzo"]
+clubes_inversa = clubes[::-1]
+print(clubes_inversa)
+"""
+
 """
 #Punto 11
 numeros = [1,2,3,4,5,6,7,8,9,10]
 sub_num = numeros[:3]
 print(sub_num)
 """
+"""
+#Punto 12
+flores= ["rosas","orquídea","lirio","tulipan","margarita","dalia","hortensia"]
+
+for flor in flores:
+"""
+"""
+#Punto 13
+def vocales(palabras):
+    cont = 0
+    for i in palabras:
+        if(palabras[i].lower == "a" or  palabras[i].lower == "e" or palabras[i].lower == "i" or palabras[i].lower == "o" or palabras[i].lower == "u"):
+            cont = cont + 1
+    return cont
+"""
+
+
 
 """
 #Punto 14
