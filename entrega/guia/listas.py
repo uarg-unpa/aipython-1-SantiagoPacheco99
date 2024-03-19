@@ -70,6 +70,16 @@ sub_numeros = numeros[:3]
 print(sub_numeros)
 """
 
+#Palabra del
+
+web = ["HTML","CSS","JS","Node","MongBD"]
+
+print(web)
+del web[2] #Borra JS
+print(web)
+
+del web #Elimina toda la lista
+print(web)
 
 
 
