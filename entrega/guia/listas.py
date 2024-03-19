@@ -70,10 +70,12 @@ sub_numeros = numeros[:3]
 print(sub_numeros)
 """
 
+
+
 #Palabra del
 
 web = ["HTML","CSS","JS","Node","MongBD"]
-
+"""
 print(web)
 del web[2] #Borra JS
 print(web)
@@ -81,5 +83,33 @@ print(web)
 del web #Elimina toda la lista
 print(web)
 
+
+#Metodo remove
+print(web)
+web.remove("JS") #Busca el elemento que le pasamos por parametro
+print(web)
+"""
+
+"""
+#Metodo pop
+
+print(web)
+web.pop() #Elimina el ultimo elemento
+print(web)
+web.pop(0) #Busca el elemento que le indicamos con el indice en el parametro
+print(web)
+"""
+
+"""
+#Metodo index
+
+print(web.index("CSS")) #Nos da el indice de donde esta ese elemento en la lista
+"""
+
+"""
+#Rebanadas en listas
+sub_web = web[:3]   #El cuarto elemento no se incluye (En este caso no se incluye Node)
+print(sub_web)
+"""
 
 
